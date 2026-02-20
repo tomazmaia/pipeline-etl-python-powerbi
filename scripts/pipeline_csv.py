@@ -1,7 +1,7 @@
 import pandas as pd
 
 # ======== E - Extraction ===============
-df = pd.read_csv('../data/vendas_brutas.csv', sep=',', encoding='utf-8-sig')
+df = pd.read_csv('data/vendas_brutas.csv', sep=',', encoding='utf-8-sig')
 
 # DEBUG colunas encontradas
 # print("Colunas encontradas: ", df.columns.tolist())
@@ -23,7 +23,7 @@ if 'Vendedor' in df.columns:
     # Criar coluna de comissão (10%)
     df['Comissao'] = df['Valor'] * 0.10
     # ======= L - Load (Carga) ===============
-    df.to_csv('vendas_final.csv', index=False, decimal='.')
+    df.to_csv('data/vendas_final.csv', index=False, decimal='.')
     print("\n --- Visualização dos dados processados ---")
     print(df.head())
     print("ETL concluido: Arquivo 'vendas_final.csv' gerado com sucesso!")

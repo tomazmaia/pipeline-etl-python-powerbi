@@ -17,4 +17,4 @@ Este projeto demonstra um pipeline de dados completo, desde a extração de dado
 1. Execute `pipeline_csv.py` para processar as vendas.
 2. Execute `pipeline_cambio.py` para atualizar o câmbio.
 3. Abra os arquivos `PWBI_projectETL_example1.pbix e PWBI_projectETL_example2Cambio.pbix` no Power BI e clique em 'Atualizar'.
-4. ![img.png](img.png)
+4. ![img.png](data/img.png)
