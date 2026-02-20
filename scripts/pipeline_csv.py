@@ -1,7 +1,7 @@
 import pandas as pd
 
 # ======== E - Extraction ===============
-df = pd.read_csv('vendas_brutas.csv', sep=',', encoding='utf-8-sig')
+df = pd.read_csv('../data/vendas_brutas.csv', sep=',', encoding='utf-8-sig')
 
 # DEBUG colunas encontradas
 # print("Colunas encontradas: ", df.columns.tolist())
